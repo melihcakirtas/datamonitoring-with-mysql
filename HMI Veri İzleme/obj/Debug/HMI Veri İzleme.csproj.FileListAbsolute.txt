@@ -1,0 +1,19 @@
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\HMI Veri İzleme.exe.config
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\HMI Veri İzleme.exe
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\HMI Veri İzleme.pdb
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI_Veri_İzleme.Form1.resources
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI_Veri_İzleme.Properties.Resources.resources
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.csproj.GenerateResource.cache
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.exe
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.pdb
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI_Veri_İzleme.Form2.resources
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\EasyModbus.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.csproj.CopyComplete
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.csprojAssemblyReference.cache
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Google.Protobuf.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\MySql.Data.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Renci.SshNet.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Google.Protobuf.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\MySql.Data.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Renci.SshNet.xml

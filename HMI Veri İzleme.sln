@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI Veri İzleme", "HMI Veri İzleme\HMI Veri İzleme.csproj", "{ECE0CEBE-1CC9-4527-862B-23BFD37EA335}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Data Monitoring", "Data Monitoring\Data Monitoring.vdproj", "{B09A9B74-F84B-498F-99E6-E3B08E64E520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECE0CEBE-1CC9-4527-862B-23BFD37EA335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE0CEBE-1CC9-4527-862B-23BFD37EA335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE0CEBE-1CC9-4527-862B-23BFD37EA335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE0CEBE-1CC9-4527-862B-23BFD37EA335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09A9B74-F84B-498F-99E6-E3B08E64E520}.Debug|Any CPU.ActiveCfg = Debug
+		{B09A9B74-F84B-498F-99E6-E3B08E64E520}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {373CA06A-E857-4EFE-A6B9-0F3BEA2BA8C4}
+	EndGlobalSection
+EndGlobal
