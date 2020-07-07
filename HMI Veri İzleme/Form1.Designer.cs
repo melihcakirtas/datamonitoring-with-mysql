@@ -47,6 +47,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -83,10 +84,10 @@
             this.verilerTableAdapter1 = new HMI_Veri_İzleme.HMIVeriDataSet1TableAdapters.verilerTableAdapter();
             this.verilerTableAdapter2 = new HMI_Veri_İzleme.HMIVeriDataSet2TableAdapters.verilerTableAdapter();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -98,7 +99,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.hMIVeriDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hMIVeriDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.verilerBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -297,6 +297,18 @@
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(592, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 36;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -473,6 +485,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(65, 20);
             this.textBox3.TabIndex = 9;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 
@@ -576,20 +589,8 @@
             // 
             // timer2
             // 
-            this.timer2.Interval = 700;
+            this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(592, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 36;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form1
             // 
@@ -608,6 +609,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -621,7 +623,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.hMIVeriDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hMIVeriDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.verilerBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

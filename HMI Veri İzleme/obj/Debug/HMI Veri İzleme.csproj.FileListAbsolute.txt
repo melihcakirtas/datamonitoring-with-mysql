@@ -17,3 +17,21 @@ C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HM
 C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Google.Protobuf.xml
 C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\MySql.Data.xml
 C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Renci.SshNet.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Buffers.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Memory.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Zstandard.Net.dll
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\Google.Protobuf.pdb
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Buffers.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Memory.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Melih\Documents\Projeler ve Denemeler\Visual Studio\HMI Veri İzleme\HMI Veri İzleme\obj\Debug\HMI Veri İzleme.csproj.CoreCompileInputs.cache

@@ -30,10 +30,10 @@ namespace HMI_Veri_İzleme
             if (NetworkInterface.GetIsNetworkAvailable() == true)
                 try
                 {
-                    baglan = new MySqlConnection("Datasource=160.153.155.38; Port=3306;Database=albasifre; Uid=melih; Pwd=melih*");
+                    baglan = new MySqlConnection("Datasource=160.153.157.129; Port=3306;Database=albaelektronik; Uid=melih; Pwd=melih*");
                     baglan.Open();
                     pictureBox5.BackColor = Color.DarkGreen;
-                    MySqlCommand kaydet = new MySqlCommand("insert into veriler (firstdata,seconddata,thirddata,fourthdata,fifthdata,date) values (@p1,@p2,@p3,@p4,@p5,@p6)", baglan);
+                    MySqlCommand kaydet = new MySqlCommand("insert into deneme (firstdata,seconddata,thirddata,fourthdata,fifthdata,date) values (@p1,@p2,@p3,@p4,@p5,@p6)", baglan);
                     kaydet.Parameters.AddWithValue("@p1", adres1.ToString());
                     kaydet.Parameters.AddWithValue("@p2", adres2.ToString());
                     kaydet.Parameters.AddWithValue("@p3", adres3.ToString());
@@ -53,6 +53,7 @@ namespace HMI_Veri_İzleme
         }
         private void modbustcp()
         {
+            //this is modbus connectşon part of code
             ipadres = textBox1.Text;
             if (int.TryParse(textBox2.Text, out int a))
                 portnumber = Convert.ToInt32(textBox2.Text);
@@ -60,8 +61,10 @@ namespace HMI_Veri_İzleme
                 MessageBox.Show("Port giriş hatası","uyarı",MessageBoxButtons.OK,MessageBoxIcon.Error);
             try
             {
+               //kolay gelsin reis 
                 ModbusClient modbustcp = new ModbusClient(ipadres, portnumber);
                 modbustcp.Connect();
+                //MessageBox.Show("sdg");
                 pictureBox3.BackColor = Color.DarkGreen;
                 int[] readHoldingRegisters1 = modbustcp.ReadHoldingRegisters(Convert.ToInt32(textBox3.Text), 1);
                 int[] readHoldingRegisters2 = modbustcp.ReadHoldingRegisters(Convert.ToInt32(textBox4.Text), 1);
@@ -151,19 +154,15 @@ namespace HMI_Veri_İzleme
                 modbustcp();
             }
             mysqlbaglan();
-            if (modbus_error == true)
-            {
-                goto end;
-            }
-            MySqlDataAdapter da = new MySqlDataAdapter("select * from veriler", baglan);
+     
+            MySqlDataAdapter da = new MySqlDataAdapter("select * from deneme", baglan);
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView2.DataSource = dt;
             dataGridView2.FirstDisplayedScrollingRowIndex = dataGridView2.RowCount - 1;//en alta gdiyor (BUNLARI KALDIRDIĞIMDA DATAGRW. EN BAŞTAKİ VERİYE GİDİYOR EKLEDİĞİMDE EN SONA)
             dataGridView2[0, dataGridView2.RowCount - 1].Selected = true;
             baglan.Close();
-        end:
-            timer2.Stop();
+       
         }
         private void button10_Click(object sender, EventArgs e)
         {
@@ -248,6 +247,12 @@ namespace HMI_Veri_İzleme
         {
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
